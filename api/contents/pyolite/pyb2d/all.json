@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-05-05T09:49:12.367756Z",
+      "created": "2022-05-05T11:54:56.140730Z",
       "format": null,
-      "last_modified": "2022-05-05T09:48:11.866970Z",
+      "last_modified": "2022-05-05T11:53:35.472238Z",
       "mimetype": null,
       "name": "goo.ipynb",
       "path": "pyolite/pyb2d/goo.ipynb",
@@ -14,20 +14,32 @@
     },
     {
       "content": null,
-      "created": "2022-05-05T09:49:12.367756Z",
+      "created": "2022-05-05T11:54:56.140730Z",
       "format": null,
-      "last_modified": "2022-05-05T09:48:11.866970Z",
+      "last_modified": "2022-05-05T11:53:35.472238Z",
       "mimetype": null,
       "name": "billiard.ipynb",
       "path": "pyolite/pyb2d/billiard.ipynb",
       "size": 9247,
       "type": "notebook",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-05-05T11:54:56.140730Z",
+      "format": null,
+      "last_modified": "2022-05-05T11:53:35.472238Z",
+      "mimetype": null,
+      "name": "color_mixing.ipynb",
+      "path": "pyolite/pyb2d/color_mixing.ipynb",
+      "size": 3465,
+      "type": "notebook",
+      "writable": true
     }
   ],
-  "created": "2022-05-05T09:49:12.367756Z",
+  "created": "2022-05-05T11:54:56.140730Z",
   "format": "json",
-  "last_modified": "2022-05-05T09:49:12.367756Z",
+  "last_modified": "2022-05-05T11:54:56.140730Z",
   "mimetype": null,
   "name": "pyb2d",
   "path": "pyolite/pyb2d",
