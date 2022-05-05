@@ -2,26 +2,26 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.16",
+    "appVersion": "0.1.0-beta.7",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
+        "load": "static/remoteEntry.3421943a0ce73f10909d.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
       {
         "liteExtension": false,
-        "load": "static/remoteEntry.9c506278e545a18a8cc2.js",
+        "load": "static/remoteEntry.cdf08c015a8192358158.js",
         "mimeExtension": "./mimeExtension",
         "name": "@jupyterlab/fasta-extension",
         "style": "./style"
       },
       {
         "liteExtension": false,
-        "load": "static/remoteEntry.a6d92e11d5e8c375cfe6.js",
+        "load": "static/remoteEntry.b75c764d727b50009261.js",
         "mimeExtension": "./mimeExtension",
         "name": "@jupyterlab/geojson-extension",
         "style": "./style"
@@ -36,14 +36,21 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.0c69e5703596ff1c3cba.js",
+        "load": "static/remoteEntry.444cde1d553878a66dd2.js",
         "name": "@jupyterlite/xeus-lua-kernel",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.5aee68a83eb92c7d0941.js",
+        "load": "static/remoteEntry.098ba362c471964915fd.js",
+        "name": "@jupyterlite/xeus-sqlite-kernel",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.c2f83b94be82afd02dbe.js",
         "name": "@jupyterlite/xeus-wren-kernel",
         "style": "./style"
       },
@@ -62,25 +69,31 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.490fbd2bdf754b661d13.js",
+        "load": "static/remoteEntry.af71ba374fc8128e6506.js",
         "name": "bqplot"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.51b89f201a0af1cc6ef5.js",
+        "load": "static/remoteEntry.84a5fbcaf1830473e5a0.js",
         "name": "ipycanvas"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.8c5efb3516d04e6a5bb7.js",
+        "load": "static/remoteEntry.176149dcbfb677ea36fb.js",
+        "name": "ipyevents"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.6375e54406c677384240.js",
         "name": "jupyter-leaflet"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.e9df3e4e9577abfc8848.js",
+        "load": "static/remoteEntry.509ecd914d0df11eb8e1.js",
         "name": "jupyter-matplotlib"
       },
       {
@@ -100,7 +113,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.722ef6c4bed73383b578.js",
+        "load": "static/remoteEntry.730e734f0ef88fa439e8.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
       },
@@ -110,14 +123,21 @@
         "load": "static/remoteEntry.5a1869d4304cb9223cfc.js",
         "name": "jupyterlab-tour",
         "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.aa1060b2d1221f8e5688.js",
+        "name": "jupyterlab_pygments",
+        "style": "./style"
       }
     ],
-    "fullLabextensionsUrl": "./lab/extensions",
+    "fullLabextensionsUrl": "./extensions",
     "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
-    "fullStaticUrl": "./lab/build",
+    "fullStaticUrl": "./build",
+    "licensesUrl": "./lab/api/licenses",
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
-    "settingsUrl": "./lab/build/schemas",
-    "themesUrl": "./lab/build/themes"
+    "preferredPath": "/"
   },
   "jupyter-lite-schema-version": 0
 }
